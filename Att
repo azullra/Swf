@@ -1,0 +1,5 @@
+<script>
+  var flashContainer = document.getElementById('flash-container');
+  var rufflePlayer = RufflePlayer.newest();
+  rufflePlayer.load({ url: 'caminho/para/arquivo.swf', container: flashContainer });
+</script>
